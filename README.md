@@ -12,6 +12,21 @@ Available in multiple levels of detail in glTF format.
 For FBX and Sketchup models, use the app:<br>
 http://s3-ap-southeast-2.amazonaws.com/launceston/atlas/index.html
 
+## Stats
+
+Represented per tile. Total size is for each LOD dataset. Each LOD contains 142 tiles.
+
+| LOD | Avg. Tris |  Texture Size | Total Size |
+| --- | --- | --- | --- |
+| L15 | 4,786 | 128x128 | 56 MB |
+| L16 | 5,847 | 256x256 | 76 MB |
+| L17 | 9,192 | 512x512 | 148 MB |
+| L18 | 18,707 | 1024x1024 | 394 MB |
+| L19 | 42,625 | 2048x2048 | 1.2 GB |
+| L20 | 94,980 | 4096x4096 | 3.9 GB |
+
+Total repo size: 5.8 GB
+
 ## License
 
 Licenced Under Creative Commons Licence - Attribution 3.0 Australia (CC BY 3.0). See LICENSE for more information.
