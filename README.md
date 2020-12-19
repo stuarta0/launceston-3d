@@ -1,18 +1,24 @@
-# Launceston 3D Model
+# City of Launceston 3D Model
 
-![Skyline in Godot](https://raw.githubusercontent.com/stuarta0/launceston-3d/master/docs/skyline.jpg)
+![Skyline in Godot](https://raw.githubusercontent.com/stuarta0/launceston-3d/main/docs/skyline.jpg)
 
 A LIDAR scan of the City of Launceston, Tasmania, AU.
 
-Available in multiple levels of detail, in various formats.
 
-Each tile is a 200m x 200m square. Origins are at each tile center, with vertical location representing sea level.
+## Formats
+
+Available in multiple levels of detail in glTF format.
+
+For FBX and Sketchup models, use the app:<br>
+http://s3-ap-southeast-2.amazonaws.com/launceston/atlas/index.html
 
 ## License
 
-Licenced Under Creative Commons Licence - Attribution 3.0 Australia (CC BY 3.0)
+Licenced Under Creative Commons Licence - Attribution 3.0 Australia (CC BY 3.0). See LICENSE for more information.
 
-## Details
+## Dataset Info
+
+Each tile is a 200m x 200m square. Origins are at each tile center, with vertical location representing sea level.
 
 ```
 (c) Launceston City Council 2013
