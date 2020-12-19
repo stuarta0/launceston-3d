@@ -1,0 +1,133 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.3.48",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Tile_+014_+005_L18"
+        }
+    ],
+    "materials" : [
+        {
+            "alphaCutoff" : 0.5,
+            "alphaMode" : "MASK",
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Tile_+014_+005_L18",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 1
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Tile_+014_+005_L18",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Tile_+014_+005_L18",
+            "uri" : "Tile_014_005_L18.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 61113,
+            "max" : [
+                96.84600830078125,
+                89.52179718017578,
+                107.56500244140625
+            ],
+            "min" : [
+                -105.31402587890625,
+                41.849098205566406,
+                -108.21002197265625
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 61113,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 61113,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 97158,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 733356,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 733356,
+            "byteOffset" : 733356
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 488904,
+            "byteOffset" : 1466712
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 194316,
+            "byteOffset" : 1955616
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 2149932,
+            "uri" : "Tile_014_005_L18.bin"
+        }
+    ]
+}
